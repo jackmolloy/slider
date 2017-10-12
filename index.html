@@ -1,0 +1,160 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+
+  <link rel="stylesheet" href="css/jquery.pagepiling.css" />
+  <link rel="stylesheet" href="css/jquery.qtip.css" />
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" media="screen" type="text/css">
+  <link rel="stylesheet" href="css/news.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+
+  <!-- Top Left Menu Buttons -->
+  <!-- <ul id="menu">
+		<li data-menuanchor="page1" class="active"><a href="#page1">Page 1</a></li>
+		<li data-menuanchor="page2"><a href="#page2">Step 1</a></li>
+		<li data-menuanchor="page3"><a href="#page3">Step 2</a></li>
+    <li data-menuanchor="page4"><a href="#page4">Step 3</a></li>
+		<li data-menuanchor="page5"><a href="#page5">Step 4</a></li>
+    <li data-menuanchor="page6"><a href="#page6">Step 5</a></li>
+		<li data-menuanchor="page7"><a href="#page7">Step 6</a></li>
+    <li data-menuanchor="page8"><a href="#page8">Step 7</a></li>
+		<li data-menuanchor="page9"><a href="#page9">Step 8</a></li>
+    <li data-menuanchor="page10"><a href="#page10">Quiz</a></li>
+		<li data-menuanchor="page11"><a href="#page11">Credits</a></li>
+	</ul> -->
+
+  <!-- Progress Bar found at:http://www.jqueryscript.net/form/Responsive-Progress-Bar-With-Steps.html -->
+  <div id="steps"></div>
+
+  <!-- PagePiling HTML Implementation -->
+	<div id="pagepiling">
+	    <div class="section section-1" id="section1">
+        <div class="header-box">
+          <h1>How to Make Pour Over Coffee</h1>
+          <p class="title">by Jack Molloy</p>
+        </div>
+	    </div>
+	    <div class="section section-2" id="section2">
+	    	<div class="intro">
+          <div class="box-2">
+	    		  <h2>Step 1</h2>
+	    		  <p>Boil water in a gooseneck kettle</p>
+          </div>
+	    	</div>
+	    </div>
+	    <div class="section section-3" id="section3">
+	    	<div class="intro">
+          <div class="box-2">
+	    		  <h2>Step 2</h2>
+	    		  <p>Measure 4tbsp of whole coffee beans</p>
+          </div>
+	    	</div>
+	    </div>
+      <div class="section section-4" id="section4">
+	    	<div class="intro">
+          <div class="box-2">
+	    		  <h1>Step 3</h1>
+	    		  <p class="dark">Grind beans to a fine, sand-like level</p>
+          </div>
+	    	</div>
+	    </div>
+      <div class="section section-5" id="section5">
+	    	<div class="intro">
+          <div class="box-3">
+	    		  <h2>Step 4</h2>
+	    		  <p>Place filter and grinded beans into the V60</p>
+          </div>
+	    	</div>
+	    </div>
+      <div class="section section-6" id="section6">
+	    	<div class="intro">
+          <div class="box-3">
+	    		  <h2>Step 5</h2>
+	    		  <p>Place V60 on scale and zero the scale</p>
+          </div>
+	    	</div>
+	    </div>
+      <div class="section section-7" id="section7">
+	    	<div class="intro">
+          <div class="box-4">
+	    		  <h2>Step 6</h2>
+	    		  <p>Start timer and pour in a slow, clockwise pattern until reaching 48g. Let coffee bloom.</p>
+          </div>
+	    	</div>
+	    </div>
+      <div class="section section-8" id="section8">
+	    	<div class="intro">
+          <div class="box-3">
+	    		  <h1>Step 7</h1>
+	    		  <p class="dark">Continue pouring in stages (70-100g at a time) until reaching 384g. This process should take about 3 minutes and 15 seconds. </p>
+          </div>
+	    	</div>
+	    </div>
+      <div class="section section-9" id="section9">
+	    	<div class="intro">
+          <div class="box-5">
+            <h2>Step 8</h2>
+            <p>Remove filter, serve and enjoy!</p>
+          </div>
+	    	</div>
+	    </div>
+      <div class="section section-10" id="section10">
+	    	<div class="intro">
+          <div class="section pp-scrollable">
+            <div class="container-fluid">
+              <div id="quiz"></div>
+              <!-- Mother Jones News Quiz found at: https://github.com/motherjones/newsquiz -->
+            </div>
+          </div>
+	    	</div>
+	    </div>
+      <div class="section section-11" id="section11">
+	    	<div class="intro">
+          <div class="box-6 box-6-text">
+            <h2>Thank You for Visiting!</h2>
+            <p>Credits</p>
+            <p class="credits">pagePiling Slider Plugin: https://github.com/alvarotrigo/pagePiling.js#pagepilingjs</p>
+            <p class="credits">Mother Jones News Quiz Plugin: https://github.com/motherjones/newsquiz</p>
+            <p class="credits">Confetti Plugin (click below): http://www.jqueryscript.net/animation/Confetti-Animation-jQuery-Canvas-Confetti-js.html</p>
+            <p class="credits">Home Image: https://timedotcom.files.wordpress.com/2017/03/pour-over-coffee-how-to-hero-getty.jpg?quality=85</p>
+            <p class="credits">Step 6 Image: https://www.google.com/search?q=pour+over+coffee&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjcg7DFjurWAhVnx1QKHTgzCfsQ_AUIDCgD&biw=1877&bih=1219#imgrc=pBETHHNQn8damM:</p>
+            <button id="startConfetti">CLICK ME</button>
+            <!-- confetti found at:http://www.jqueryscript.net/animation/Confetti-Animation-jQuery-Canvas-Confetti-js.html  -->
+          </div>
+	    	</div>
+	    </div>
+	</div>
+
+
+  <!-- js script calls -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/jquery.pagepiling.js"></script>
+  <script src="js/jquery.qtip.js"></script>
+  <script src="js/tabletop.js"></script>
+  <script src="js/news.js"></script>
+  <script src="js/jquery.confetti.js"></script>
+  <script src="js/scripts.js"></script>
+
+  <script type="text/javascript">
+      var quiz = jQuery('#quiz').quiz('1tbEklXFZyZmbMqsUDBji4WMn0iN-8Ni0R_thA836akM'); //your published spreadsheet key or URL goes here
+  </script>
+
+
+</body>
+</html>
